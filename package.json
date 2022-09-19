@@ -1,6 +1,12 @@
 {
   "name": "vue-eslint",
   "version": "0.0.0",
+  "private": false,
+  "author": {
+    "name": "tinf",
+    "email": "tinfengyee@gmail.com",
+    "url": "https://github.com/tinfengyee/vue3-integrated"
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
