@@ -35,7 +35,7 @@
 
   --section-gap: 160px;
 }
-
+/* 夜间模式 https://codepen.io/jonneal/pen/vzPwWo */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);

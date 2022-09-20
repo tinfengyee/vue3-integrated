@@ -1,12 +1,11 @@
 <script setup lang="ts">
   import HelloWorld from '/@/components/HelloWorld.vue'
-  import TheWelcome from './components/TheWelcome.vue'
+  import TheWelcome from '/@/components/TheWelcome'
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    <div class="scss" style="width: 50px; height: 50px"></div>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
     </div>
