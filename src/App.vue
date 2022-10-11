@@ -1,10 +1,24 @@
+<!-- <script lang="ts">
+</script> -->
 <script setup lang="ts">
   import Learn from '/@/view/learn/index.vue'
+  import { useMouse } from '/@/hooks/web/mouse'
+  import { onMounted } from 'vue'
+
+  const { x, y } = useMouse()
+  onMounted(() => {
+    console.log(1)
+  })
 </script>
 
 <template>
   <main>
-    <Learn />
+    <h1>{{ x }} -- {{ y }}</h1>
+    <Learn foo="23" id="c" class="dd">
+      <template #footer="{ user }">
+        <div>{{ user }}</div>
+      </template>
+    </Learn>
   </main>
 </template>
 
