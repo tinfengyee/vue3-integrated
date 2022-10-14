@@ -65,7 +65,7 @@ module.exports = defineConfig({
       'PascalCase',
       {
         registeredComponentsOnly: false, // 则仅检查已注册的组件
-        ignores: [], // 要忽略的元素名称 "/^name/"
+        ignores: ['/^router/'], // 要忽略的元素名称 "/^name/"
       },
     ],
     // 'vue/custom-event-name-casing': 'off', //  强制自定义事件名称为 camelCase

@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="wrap">learns</div>
+  <div>child two</div>
 </template>
 
 <style lang="scss">
